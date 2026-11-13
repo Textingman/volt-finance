@@ -32,16 +32,16 @@ export default function TalkToSalesPage() {
         {/* ── LEFT: Forest panel ── */}
         <div
           className="relative hidden md:flex flex-col justify-between p-12 pt-32"
-          style={{ background: 'var(--forest)' }}
+          style={{ background: 'linear-gradient(135deg, #0D1526 0%, #1A2340 50%, #1E2D52 100%)' }}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop"
+            
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
-            style={{ opacity: 0.2 }}
+            
           />
-          <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(24,37,27,0.6) 0%, rgba(24,37,27,0.9) 100%)' }} />
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(61,90,138,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(61,90,138,0.15) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
 
           <div className="relative z-10">
             <p className="font-mono-label mb-8" style={{ color: 'rgba(245,243,235,0.45)', fontSize: '0.65rem' }}>
