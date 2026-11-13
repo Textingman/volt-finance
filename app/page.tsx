@@ -185,71 +185,158 @@ export default function HomePage() {
 
       {/* ── HERO ── */}
       <section
-        className="relative min-h-screen flex items-end"
+        className="relative min-h-screen flex items-center"
         style={{
-          background: 'var(--forest)',
+          background: 'linear-gradient(135deg, #0D1526 0%, #1A2340 40%, #1E2D52 70%, #0D1526 100%)',
           overflow: 'hidden',
         }}
       >
-        {/* Nature background — using Unsplash forest image */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1800&q=80&auto=format&fit=crop"
-          alt="Forest canopy"
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ opacity: 0.55 }}
+        {/* Animated grid background */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `
+              linear-gradient(rgba(61,90,138,0.15) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(61,90,138,0.15) 1px, transparent 1px)
+            `,
+            backgroundSize: '60px 60px',
+          }}
         />
 
-        {/* Gradient overlay */}
-        <div className="hero-overlay absolute inset-0" />
+        {/* Glow orbs */}
+        <div
+          className="absolute"
+          style={{
+            width: '600px',
+            height: '600px',
+            borderRadius: '50%',
+            background: 'radial-gradient(circle, rgba(61,90,138,0.25) 0%, transparent 70%)',
+            top: '-100px',
+            right: '-100px',
+          }}
+        />
+        <div
+          className="absolute"
+          style={{
+            width: '400px',
+            height: '400px',
+            borderRadius: '50%',
+            background: 'radial-gradient(circle, rgba(107,143,191,0.15) 0%, transparent 70%)',
+            bottom: '100px',
+            left: '-50px',
+          }}
+        />
 
         {/* Content */}
         <div
-          className="relative z-10 w-full max-w-5xl mx-auto px-6 pb-24 pt-48"
+          className="relative z-10 w-full max-w-6xl mx-auto px-6 pt-32 pb-20"
           style={{
             opacity: heroLoaded ? 1 : 0,
             transform: heroLoaded ? 'translateY(0)' : 'translateY(20px)',
             transition: 'opacity 1s ease, transform 1s ease',
           }}
         >
-          {/* Eyebrow */}
-          <p className="font-mono-label mb-8" style={{ color: 'rgba(245,243,235,0.55)', fontSize: '0.65rem' }}>
-            Employee Financial Wellness
-          </p>
+          <div className="max-w-3xl">
+            {/* Badge */}
+            <div
+              className="inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full"
+              style={{
+                background: 'rgba(61,90,138,0.2)',
+                border: '1px solid rgba(61,90,138,0.4)',
+              }}
+            >
+              <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#6B8FBF' }} />
+              <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.8rem', fontWeight: 500 }}>
+                AI-Powered Financial Wellness
+              </span>
+            </div>
 
-          {/* Headline */}
-          <h1 className="headline-xl text-white mb-8" style={{ maxWidth: '720px' }}>
-            Financial security
-            <br />
-            for <em className="italic-accent">every</em> employee,
-            <br />
-            at every stage.
-          </h1>
+            {/* Headline */}
+            <h1
+              style={{
+                fontFamily: 'Inter, sans-serif',
+                fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
+                fontWeight: 800,
+                lineHeight: 1.1,
+                letterSpacing: '-0.03em',
+                color: 'white',
+                marginBottom: '1.5rem',
+              }}
+            >
+              Financial security
+              <br />
+              <span style={{ color: '#6B8FBF' }}>for every employee,</span>
+              <br />
+              at every stage.
+            </h1>
 
-          {/* Subheading */}
-          <p
-            style={{
-              color: 'rgba(245,243,235,0.7)',
-              fontSize: '1.1rem',
-              lineHeight: 1.7,
-              maxWidth: '480px',
-              marginBottom: '2.5rem',
-            }}
-          >
-            Verdant Finance is an AI-powered financial wellness platform that helps your workforce budget, plan, invest, and build lasting financial confidence.
-          </p>
+            {/* Subheading */}
+            <p
+              style={{
+                color: 'rgba(255,255,255,0.6)',
+                fontSize: '1.15rem',
+                lineHeight: 1.7,
+                maxWidth: '520px',
+                marginBottom: '2.5rem',
+              }}
+            >
+              Verdant Finance is an AI-powered financial wellness platform that helps your workforce budget, plan, invest, and build lasting financial confidence.
+            </p>
 
-          {/* CTAs */}
-          <div className="flex flex-wrap items-center gap-4">
-            <Link href="/talk-to-sales" className="btn-primary">
-              Get Started
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </Link>
-            <Link href="/for-employers" className="btn-outline">
-              For Employers
-            </Link>
+            {/* CTAs */}
+            <div className="flex flex-wrap items-center gap-4">
+              <Link
+                href="/talk-to-sales"
+                className="inline-flex items-center gap-2"
+                style={{
+                  background: '#3D5A8A',
+                  color: 'white',
+                  fontSize: '0.95rem',
+                  fontWeight: 600,
+                  padding: '0.875rem 2rem',
+                  borderRadius: '10px',
+                  transition: 'background 0.2s, transform 0.2s',
+                }}
+                onMouseEnter={e => { e.currentTarget.style.background = '#4A6FA0'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                onMouseLeave={e => { e.currentTarget.style.background = '#3D5A8A'; e.currentTarget.style.transform = 'translateY(0)'; }}
+              >
+                Get Started Free
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/for-employers"
+                className="inline-flex items-center gap-2"
+                style={{
+                  color: 'rgba(255,255,255,0.8)',
+                  fontSize: '0.95rem',
+                  fontWeight: 500,
+                  padding: '0.875rem 2rem',
+                  borderRadius: '10px',
+                  border: '1px solid rgba(255,255,255,0.2)',
+                  transition: 'all 0.2s',
+                }}
+                onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.4)'; }}
+                onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)'; }}
+              >
+                For Employers
+              </Link>
+            </div>
+
+            {/* Social proof */}
+            <div className="flex items-center gap-6 mt-12">
+              {[
+                { value: '10,000+', label: 'Employees served' },
+                { value: '94%', label: 'Satisfaction rate' },
+                { value: '$2.39', label: 'ROI per $1 invested' },
+              ].map(stat => (
+                <div key={stat.label}>
+                  <p style={{ color: 'white', fontWeight: 700, fontSize: '1.25rem', lineHeight: 1 }}>{stat.value}</p>
+                  <p style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.75rem', marginTop: '0.25rem' }}>{stat.label}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
