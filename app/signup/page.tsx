@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 // Generate a random Employer ID for demo/validation purposes
 function generateEmployerId() {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
-  let id = 'BT-';
+  let id = 'VF-';
   for (let i = 0; i < 4; i++) id += chars[Math.floor(Math.random() * chars.length)];
   id += '-';
   for (let i = 0; i < 4; i++) id += chars[Math.floor(Math.random() * chars.length)];
@@ -139,7 +139,7 @@ export default function SignupPage() {
               <em className="italic-accent">wellness starts here.</em>
             </h2>
             <p style={{ color: 'rgba(245,243,235,0.6)', fontSize: '0.95rem', lineHeight: 1.8, maxWidth: '320px' }}>
-              Set up your Ballad Tree account and connect to your employer&apos;s financial wellness program in minutes.
+              Set up your Verdant Finance account and connect to your employer&apos;s financial wellness program in minutes.
             </p>
           </div>
 
@@ -366,7 +366,7 @@ export default function SignupPage() {
                       <em className="italic-accent">by your AI advisor.</em>
                     </h1>
                     <p style={{ color: 'rgba(24,37,27,0.5)', fontSize: '0.85rem', lineHeight: 1.7, marginBottom: '1.5rem' }}>
-                      Ballad AI can send you personalized financial insights, goal reminders, and spending alerts directly to your phone — so you never miss an important moment in your financial journey.
+                      Verdant AI can send you personalized financial insights, goal reminders, and spending alerts directly to your phone — so you never miss an important moment in your financial journey.
                     </p>
 
                     {/* What you'll receive */}
@@ -375,7 +375,7 @@ export default function SignupPage() {
                       style={{ background: 'rgba(72,82,56,0.06)', border: '1px solid rgba(72,82,56,0.12)' }}
                     >
                       <p className="font-mono-label mb-3" style={{ color: 'var(--olive)', fontSize: '0.6rem' }}>
-                        What Ballad AI will text you
+                        What Verdant AI will text you
                       </p>
                       <div className="space-y-2">
                         {[
@@ -414,7 +414,7 @@ export default function SignupPage() {
                         }}
                       />
                       <p style={{ fontSize: '0.7rem', color: 'rgba(24,37,27,0.4)', marginTop: '0.4rem' }}>
-                        This is the number Ballad AI will use to send you alerts.
+                        This is the number Verdant AI will use to send you alerts.
                       </p>
                     </div>
 
@@ -445,7 +445,7 @@ export default function SignupPage() {
                           style={{ accentColor: 'var(--olive)' }}
                         />
                         <label htmlFor="accountNotifications" style={{ fontSize: '0.72rem', color: 'rgba(24,37,27,0.45)', lineHeight: 1.6 }}>
-                          By checking this box, I agree to receive Transactional Account Notification SMS messages from Ballad Tree at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
+                          By checking this box, I agree to receive Transactional Account Notification SMS messages from Verdant Finance at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
                         </label>
                       </div>
                       <div className="flex items-start gap-3">
@@ -458,7 +458,7 @@ export default function SignupPage() {
                           style={{ accentColor: 'var(--olive)' }}
                         />
                         <label htmlFor="customerCare" style={{ fontSize: '0.72rem', color: 'rgba(24,37,27,0.45)', lineHeight: 1.6 }}>
-                          By checking this box, I agree to receive Promotional Marketing SMS messages from Ballad Tree at the phone number provided, including special offers and exclusive updates. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
+                          By checking this box, I agree to receive Promotional Marketing SMS messages from Verdant Finance at the phone number provided, including special offers and exclusive updates. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
                         </label>
                       </div>
                     </div>

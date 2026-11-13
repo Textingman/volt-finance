@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             {/* Intro */}
             <div>
               <p>
-                Ballad Tree ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered financial wellness platform and website at <strong>balladtree.com</strong>. By using our service, you agree to the collection and use of information in accordance with this policy.
+                Verdant Finance ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered financial wellness platform and website at <strong>verdantfinance.com</strong>. By using our service, you agree to the collection and use of information in accordance with this policy.
               </p>
             </div>
 
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
                 <li>Mobile phone number (if you opt in to SMS notifications)</li>
                 <li>Financial account information you choose to connect (e.g., bank accounts, investment accounts)</li>
                 <li>Financial goals, spending categories, and preferences you set within the platform</li>
-                <li>Questions and conversations you have with Ballad AI</li>
+                <li>Questions and conversations you have with Verdant AI</li>
                 <li>SMS opt-in consent preferences</li>
                 <li>Usage data and device information (browser type, IP address, pages visited)</li>
               </ul>
@@ -62,25 +62,25 @@ export default function PrivacyPage() {
                 2. SMS Messaging
               </h2>
               <p className="mb-3">
-                Ballad Tree uses SMS messaging to deliver AI-powered financial alerts and account notifications to employees who opt in. The following terms apply to our SMS program:
+                Verdant Finance uses SMS messaging to deliver AI-powered financial alerts and account notifications to employees who opt in. The following terms apply to our SMS program:
               </p>
 
               <div className="space-y-4">
                 <div>
                   <p className="font-mono-label mb-2" style={{ color: 'var(--olive)', fontSize: '0.6rem' }}>Program Description</p>
                   <p>
-                    Ballad Tree sends two types of SMS messages:
+                    Verdant Finance sends two types of SMS messages:
                   </p>
                   <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li><strong>Transactional Account Notifications:</strong> Personalized financial insights from Ballad AI, goal milestone alerts, spending summaries, budget reminders, and account updates related to your financial wellness program.</li>
-                    <li><strong>Promotional Marketing Messages:</strong> Special offers, product updates, and exclusive content related to Ballad Tree's financial wellness services.</li>
+                    <li><strong>Transactional Account Notifications:</strong> Personalized financial insights from Verdant AI, goal milestone alerts, spending summaries, budget reminders, and account updates related to your financial wellness program.</li>
+                    <li><strong>Promotional Marketing Messages:</strong> Special offers, product updates, and exclusive content related to Verdant Finance's financial wellness services.</li>
                   </ul>
                 </div>
 
                 <div>
                   <p className="font-mono-label mb-2" style={{ color: 'var(--olive)', fontSize: '0.6rem' }}>Opt-In</p>
                   <p>
-                    You may opt in to receive SMS messages during the employee onboarding process by checking the applicable consent boxes. Opting in is entirely optional and is not required to use Ballad Tree's financial wellness platform. Consent is not a condition of purchasing any products or services.
+                    You may opt in to receive SMS messages during the employee onboarding process by checking the applicable consent boxes. Opting in is entirely optional and is not required to use Verdant Finance's financial wellness platform. Consent is not a condition of purchasing any products or services.
                   </p>
                 </div>
 
@@ -101,7 +101,7 @@ export default function PrivacyPage() {
                 <div>
                   <p className="font-mono-label mb-2" style={{ color: 'var(--olive)', fontSize: '0.6rem' }}>Help</p>
                   <p>
-                    Reply <strong>HELP</strong> to any message for assistance, or contact us at <a href="mailto:support@balladtree.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@balladtree.com</a>.
+                    Reply <strong>HELP</strong> to any message for assistance, or contact us at <a href="mailto:support@verdantfinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@verdantfinance.com</a>.
                   </p>
                 </div>
 
@@ -120,7 +120,7 @@ export default function PrivacyPage() {
                     No Mobile Data Sharing
                   </p>
                   <p>
-                    <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Your mobile number is used solely to deliver the SMS messages you have opted into through Ballad Tree.
+                    <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Your mobile number is used solely to deliver the SMS messages you have opted into through Verdant Finance.
                   </p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function PrivacyPage() {
                 3. How We Use Your Information
               </h2>
               <ul className="list-disc pl-6 space-y-2">
-                <li>To create and manage your Ballad Tree account</li>
+                <li>To create and manage your Verdant Finance account</li>
                 <li>To connect your account to your employer's financial wellness program</li>
                 <li>To provide personalized AI-powered financial guidance and insights</li>
                 <li>To send SMS messages you have opted into (financial alerts, account notifications, or promotional messages)</li>
@@ -149,7 +149,7 @@ export default function PrivacyPage() {
                 4. Employer Data Sharing
               </h2>
               <p className="mb-3">
-                Ballad Tree is designed with employee privacy at its core. Your employer will never see your individual financial data, account balances, spending details, or conversations with Ballad AI.
+                Verdant Finance is designed with employee privacy at its core. Your employer will never see your individual financial data, account balances, spending details, or conversations with Verdant AI.
               </p>
               <p>
                 Employers receive only <strong>aggregate, anonymized wellness metrics</strong> — such as overall program engagement rates, average financial wellness scores across the workforce, and goal completion trends. These metrics cannot be traced back to any individual employee.
@@ -180,7 +180,7 @@ export default function PrivacyPage() {
                 <li>Disconnect financial accounts you have connected to the platform</li>
               </ul>
               <p className="mt-3">
-                To exercise any of these rights, contact us at <a href="mailto:support@balladtree.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@balladtree.com</a>.
+                To exercise any of these rights, contact us at <a href="mailto:support@verdantfinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@verdantfinance.com</a>.
               </p>
             </div>
 
@@ -193,9 +193,9 @@ export default function PrivacyPage() {
                 If you have questions about this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="mt-3 space-y-1">
-                <p><strong>Ballad Tree</strong></p>
-                <p>Email: <a href="mailto:support@balladtree.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@balladtree.com</a></p>
-                <p>Website: <a href="https://balladtree.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>balladtree.com</a></p>
+                <p><strong>Verdant Finance</strong></p>
+                <p>Email: <a href="mailto:support@verdantfinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>support@verdantfinance.com</a></p>
+                <p>Website: <a href="https://verdantfinance.com" style={{ color: 'var(--olive)', textDecoration: 'underline' }}>verdantfinance.com</a></p>
               </div>
             </div>
 

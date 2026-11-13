@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -10,14 +9,17 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="mb-6">
-              <Image
-                src="/logo.png"
-                alt="Ballad Tree"
-                width={140}
-                height={40}
-                className="h-9 w-auto object-contain"
-                style={{ filter: 'brightness(0) invert(1)', opacity: 0.85 }}
-              />
+              <span
+                style={{
+                  fontFamily: 'Playfair Display, Georgia, serif',
+                  fontWeight: 600,
+                  fontSize: '1.4rem',
+                  color: 'rgba(245,243,235,0.85)',
+                  letterSpacing: '-0.01em',
+                }}
+              >
+                Verdant Finance
+              </span>
             </div>
             <p
               className="headline-md italic-accent mb-6"
@@ -85,20 +87,20 @@ export default function Footer() {
         <div style={{ borderTop: '1px solid rgba(245,243,235,0.1)', paddingTop: '2rem' }}>
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="font-mono-label" style={{ color: 'rgba(245,243,235,0.3)', fontSize: '0.65rem' }}>
-              © {new Date().getFullYear()} Ballad Tree. All rights reserved.
+              © {new Date().getFullYear()} Verdant Finance. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <p className="font-mono-label" style={{ color: 'rgba(245,243,235,0.3)', fontSize: '0.65rem' }}>
-                balladtree.com
+                verdantfinance.com
               </p>
               <a
-                href="https://www.linkedin.com/company/ballad-tree/?viewAsMember=true"
+                href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '32px', height: '32px', borderRadius: '8px', background: 'rgba(245,243,235,0.1)', transition: 'background 0.2s' }}
                 onMouseEnter={e => (e.currentTarget.style.background = 'rgba(245,243,235,0.2)')}
                 onMouseLeave={e => (e.currentTarget.style.background = 'rgba(245,243,235,0.1)')}
-                aria-label="Ballad Tree on LinkedIn"
+                aria-label="Verdant Finance on LinkedIn"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="#0A66C2" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>

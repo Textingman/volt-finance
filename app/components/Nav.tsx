@@ -25,15 +25,17 @@ export default function Nav() {
       >
         {/* Logo */}
         <Link href="/" className="flex items-center group">
-          <Image
-            src="/logo.png"
-            alt="Ballad Tree"
-            width={140}
-            height={40}
-            className="h-9 w-auto object-contain"
-            style={{ filter: 'brightness(0) invert(1)' }}
-            priority
-          />
+          <span
+            style={{
+              fontFamily: 'Playfair Display, Georgia, serif',
+              fontWeight: 600,
+              fontSize: '1.25rem',
+              color: 'white',
+              letterSpacing: '-0.01em',
+            }}
+          >
+            Verdant Finance
+          </span>
         </Link>
 
         {/* Desktop Nav */}

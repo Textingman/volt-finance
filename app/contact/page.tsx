@@ -204,10 +204,10 @@ export default function ContactPage() {
                     Email
                   </p>
                   <a
-                    href="mailto:support@balladtree.com"
+                    href="mailto:support@verdantfinance.com"
                     style={{ color: 'var(--forest)', fontWeight: 600, fontSize: '0.95rem' }}
                   >
-                    support@balladtree.com
+                    support@verdantfinance.com
                   </a>
                   <p style={{ color: 'rgba(24,37,27,0.45)', fontSize: '0.82rem', marginTop: '0.3rem' }}>
                     Response within 1–2 business days
@@ -220,10 +220,10 @@ export default function ContactPage() {
                     Phone
                   </p>
                   <a
-                    href="tel:+13022082561"
+                    href="tel:+18005551234"
                     style={{ color: 'var(--forest)', fontWeight: 600, fontSize: '0.95rem' }}
                   >
-                    (302) 208-2561
+                    (800) 555-1234
                   </a>
                 </div>
 
@@ -233,7 +233,7 @@ export default function ContactPage() {
                     Address
                   </p>
                   <p style={{ color: 'var(--charcoal)', fontSize: '0.9rem', lineHeight: 1.6 }}>
-                    3301 Lancaster Pike Ste 1A PMB 1014<br />Wilmington, DE 19805<br />United States
+                    1200 Financial Way Ste 400<br />Austin, TX 78701<br />United States
                   </p>
                 </div>
 

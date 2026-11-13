@@ -3,14 +3,14 @@
 
 /* ─── Design Tokens ─────────────────────────────────────────────────────────── */
 :root {
-  --forest: #18251B;
-  --olive: #485238;
-  --ivory: #F5F3EB;
-  --charcoal: #171B18;
+  --forest: #1A2340;
+  --olive: #3D5A8A;
+  --ivory: #F0F4FF;
+  --charcoal: #141928;
   --white: #FFFFFF;
-  --olive-light: rgba(72, 82, 56, 0.15);
-  --olive-mid: rgba(72, 82, 56, 0.4);
-  --forest-light: rgba(24, 37, 27, 0.08);
+  --olive-light: rgba(61, 90, 138, 0.15);
+  --olive-mid: rgba(61, 90, 138, 0.4);
+  --forest-light: rgba(26, 35, 64, 0.08);
 }
 
 /* ─── Base ───────────────────────────────────────────────────────────────────── */

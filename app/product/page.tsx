@@ -24,7 +24,7 @@ export default function ProductPage() {
             <em className="italic-accent">every financial journey.</em>
           </h1>
           <p style={{ color: 'rgba(245,243,235,0.65)', fontSize: '1.1rem', lineHeight: 1.8, maxWidth: '520px', margin: '0 auto 2.5rem' }}>
-            Ballad Tree brings together budgeting, goal planning, debt management, investing guidance, and AI-powered advice — all in one calm, unified experience.
+            Verdant Finance brings together budgeting, goal planning, debt management, investing guidance, and AI-powered advice — all in one calm, unified experience.
           </p>
           <Link href="/talk-to-sales" className="btn-primary">
             Get Started
@@ -53,7 +53,7 @@ export default function ProductPage() {
             {[
               {
                 title: 'AI Financial Advisor',
-                desc: 'Employees can ask Ballad AI anything — how to pay off debt faster, whether they can afford a home, how to build an emergency fund. They get personalized, actionable answers based on their actual financial situation.',
+                desc: 'Employees can ask Verdant AI anything — how to pay off debt faster, whether they can afford a home, how to build an emergency fund. They get personalized, actionable answers based on their actual financial situation.',
                 icon: (
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 5v6m0 4h.01" />
@@ -74,7 +74,7 @@ export default function ProductPage() {
               },
               {
                 title: 'Goal Planning & Tracking',
-                desc: 'Set goals for emergency funds, debt payoff, home buying, retirement, and more. Ballad Tree builds a personalized plan and tracks progress automatically — adjusting as life changes.',
+                desc: 'Set goals for emergency funds, debt payoff, home buying, retirement, and more. Verdant Finance builds a personalized plan and tracks progress automatically — adjusting as life changes.',
                 icon: (
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M9 11l3 3L22 4" />
@@ -104,7 +104,7 @@ export default function ProductPage() {
               },
               {
                 title: 'Retirement & Investing Guidance',
-                desc: 'Help employees understand their 401k, IRA, and investment options. Ballad AI explains complex concepts in plain language and helps employees make confident decisions.',
+                desc: 'Help employees understand their 401k, IRA, and investment options. Verdant AI explains complex concepts in plain language and helps employees make confident decisions.',
                 icon: (
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M12 2L2 7l10 5 10-5-10-5z" />
@@ -150,7 +150,7 @@ export default function ProductPage() {
                 <em className="italic-accent">deeply personal.</em>
               </h2>
               <p style={{ color: 'rgba(24,37,27,0.6)', fontSize: '1rem', lineHeight: 1.8, marginBottom: '2rem' }}>
-                Ballad Tree is built with privacy at its core. Employees control exactly what they connect and share. Their individual financial data is never visible to their employer.
+                Verdant Finance is built with privacy at its core. Employees control exactly what they connect and share. Their individual financial data is never visible to their employer.
               </p>
               <div className="space-y-5">
                 {[

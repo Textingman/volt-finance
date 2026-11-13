@@ -21,7 +21,7 @@ export default function ForEmployersPage() {
           <h1 className="headline-xl text-white mb-8">
             <em className="italic-accent">Why</em> employers choose
             <br />
-            Ballad Tree
+            Verdant Finance
           </h1>
           <p style={{ color: 'rgba(245,243,235,0.65)', fontSize: '1.1rem', lineHeight: 1.8, maxWidth: '520px', margin: '0 auto 2.5rem' }}>
             Trusted by forward-thinking companies to deliver measurable impact in employee financial wellness.
@@ -59,7 +59,7 @@ export default function ForEmployersPage() {
                   </svg>
                 ),
                 title: 'Built for every team',
-                desc: 'From 10 employees to 10,000 — Ballad Tree scales with your organization and adapts to every workforce.',
+                desc: 'From 10 employees to 10,000 — Verdant Finance scales with your organization and adapts to every workforce.',
               },
               {
                 icon: (
@@ -98,7 +98,7 @@ export default function ForEmployersPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="font-mono-label mb-6" style={{ color: 'var(--olive)', fontSize: '0.65rem' }}>
-              Why Ballad Tree
+              Why Verdant Finance
             </p>
             <h2 className="headline-lg" style={{ color: 'var(--forest)' }}>
               Built for the way
@@ -111,11 +111,11 @@ export default function ForEmployersPage() {
             {[
               {
                 label: 'One Platform for Every Employee',
-                body: 'Support every financial journey—budgeting, investing, planning, and more—with a single, unified platform. Ballad Tree meets employees where they are, no matter their income, location, or life stage.',
+                body: 'Support every financial journey—budgeting, investing, planning, and more—with a single, unified platform. Verdant Finance meets employees where they are, no matter their income, location, or life stage.',
               },
               {
                 label: 'Global Access and Equity',
-                body: 'Offer financial support that scales. Ballad Tree is built to serve teams in 70+ countries and 80+ languages, with culturally relevant guidance and localized experiences for true financial equity.',
+                body: 'Offer financial support that scales. Verdant Finance is built to serve teams in 70+ countries and 80+ languages, with culturally relevant guidance and localized experiences for true financial equity.',
               },
               {
                 label: 'Flexible Pricing, Proven ROI',
@@ -293,7 +293,7 @@ export default function ForEmployersPage() {
             <em className="italic-accent">resilient workforce.</em>
           </h2>
           <p style={{ color: 'rgba(24,37,27,0.55)', fontSize: '1rem', lineHeight: 1.8, maxWidth: '420px', margin: '0 auto 2.5rem' }}>
-            Join companies delivering measurable financial wellness impact with Ballad Tree.
+            Join companies delivering measurable financial wellness impact with Verdant Finance.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/talk-to-sales" className="btn-forest">

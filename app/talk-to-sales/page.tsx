@@ -53,13 +53,13 @@ export default function TalkToSalesPage() {
               <em className="italic-accent">for your team.</em>
             </h2>
             <p style={{ color: 'rgba(245,243,235,0.6)', fontSize: '0.95rem', lineHeight: 1.8, maxWidth: '320px' }}>
-              Our team will walk you through how Ballad Tree works, answer your questions, and help you find the right plan for your organization.
+              Our team will walk you through how Verdant Finance works, answer your questions, and help you find the right plan for your organization.
             </p>
           </div>
 
           <div className="relative z-10 space-y-6">
             {[
-              { title: 'Personalized demo', desc: 'See Ballad Tree in action with a walkthrough tailored to your team.' },
+              { title: 'Personalized demo', desc: 'See Verdant Finance in action with a walkthrough tailored to your team.' },
               { title: 'Flexible pricing', desc: 'Plans that scale with your organization — from 10 to 10,000 employees.' },
               { title: 'Dedicated onboarding', desc: 'Our success team handles setup, rollout, and ongoing engagement.' },
             ].map((item, i) => (
